@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap - Prebuilt Layout</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link href="jquery/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jquery/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jquery/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css">
+<script src="jquery/jquery-1.11.1.min.js"></script>
+<script src="jquery/jquery.ui-1.10.4.datepicker.min.js"></script>
+<script>
+  $( function() {
+    $( ".datepicker" ).datepicker({ /* the"." in the datepicker allows the datepicker feature  class to be applied to as many input fields as needed.*/
+		dateFormat: ('m/d/yy'),/*change the'm/d/yy' to change the format of the date "M=Month spelled out"*/
+		changeMonth: true, /*this allows user to select from a drop down menu of months.   add: "changeYear: true," to add a change year drop down menu.*/
+      showButtonPanel: true /* this allows the "Today" button so the user can go back to the current date easily.*/
+    });
+  } );
+  </script>
+
+</head>
+<body>
+<h3 class="text-center">Multiple Datepicker With some Added Features.</h3>
+<div class="container">
+	 <div class="col col-lg-10 col-lg-offset-2">
+    <div class="form-group col-lg-10">
+      <label for="date2">Date:</label>
+    <input type="text" class="datepicker" name="daterange" placeholder="Select Your Date"  />	
+    </div>
+    <div class="form-group col-lg-10">
+      <label for="date2">Date:</label>
+    <input type="text" class="datepicker" name="daterange2" placeholder="Select Your Date"  />	
+    </div>
+    <div class="form-group col-lg-10">
+      <label for="date2">Date:</label>
+    <input type="text" class="datepicker" name="daterange3" placeholder="Select Your Date"  />	
+    </div>
+    <div class="form-group col-lg-10">
+      <label for="date2">Date:</label>
+    <input type="text" class="datepicker" name="daterange4" placeholder="Select Your Date"  />	
+    </div>
+    <div class="form-group col-lg-10">
+      <label for="date2">Date:</label>
+    <input type="text" class="datepicker" name="daterange5" placeholder="Select Your Date"  />	
+    </div>
+	<div class="form-group col-lg-10">
+      <label for="date2">Date:</label>
+    <input type="text" class="datepicker" name="daterange5" placeholder="Select Your Date"  />	
+    </div>
+   
+	</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="../js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="../js/bootstrap.js"></script>
+</body>
+</html>
